@@ -1,0 +1,2 @@
+# nginx 启动时需要 logs/ 目录存在（要打开 error.log / 写 nginx.pid）。
+# 日志文件本身被 .gitignore 排除，这里保留目录结构。

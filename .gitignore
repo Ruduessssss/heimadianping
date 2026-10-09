@@ -1,0 +1,15 @@
+# ===== nginx 运行时产物 =====
+# 日志会随运行不断增长，而且每台机器上的内容都不一样
+nginx/nginx-1.18.0/logs/*.log
+nginx/nginx-1.18.0/logs/*.pid
+
+# nginx 运行时生成的临时目录（内容为空，目录本身由 logs/.gitkeep 之外的逻辑保留）
+nginx/nginx-1.18.0/temp/
+
+# ===== 构建产物 =====
+code/target/
+
+# ===== IDE / 系统 =====
+*.class
+Thumbs.db
+.DS_Store
